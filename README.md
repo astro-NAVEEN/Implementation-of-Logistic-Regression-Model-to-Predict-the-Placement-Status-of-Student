@@ -15,6 +15,8 @@ To write a program to implement the the Logistic Regression Model to Predict the
 
 ## Program:
 
+~~~py
+
 import numpy as np
 
 from sklearn.model_selection import train_test_split
@@ -93,6 +95,8 @@ if prediction[0] == 1:
 else:
 
     print("\nPrediction: Student is Not Placed")
+
+~~~
 
 ## Output:
 
